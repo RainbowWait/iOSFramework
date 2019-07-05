@@ -72,18 +72,18 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
-  spec.source_files  = "iOS-Framework/SDK", "iOS-Framework/SDK/**/*.{pch}"
+  #spec.source_files  = "iOS-Framework/SDK", "iOS-Framework/SDK/**/*.{VCRTC.framework}"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/RainbowWait/iOSFramework.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/RainbowWait/iOSFramework.git", :tag => "1.0.1" }
 
    spec.platform     = :ios
    spec.platform     = :ios, "9.0"
-   #spec.ios.vendored_frameworks = "Frameworks/VCRTCScreenShare.framework/VCRTC.framework/WebRTC.framework"
+ spec.ios.vendored_frameworks = "iOS-Framework/SDK/*.framework"
    spec.frameworks = 'Foundation', 'ReplayKit', 'UIKit'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
