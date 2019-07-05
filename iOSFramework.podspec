@@ -1,4 +1,4 @@
-J#
+
 #  Be sure to run `pod spec lint iOSFramework.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/RainbowWait/iOSFramework.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/RainbowWait/iOSFramework.git", :tag => "1.0.v1" }
 
    spec.platform     = :ios
    spec.platform     = :ios, "9.0"
