@@ -1,4 +1,4 @@
-#
+J#
 #  Be sure to run `pod spec lint iOSFramework.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "iOSFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "音视频会议iOSSDK"
 
   # This description is used to generate tags and improve search results.
